@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Comment Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="My Logo">
+    </header>
+    <main>
+      <section id="comment-section">
+        <h2>:תגובות</h2>
+        <ul id="comment-list">
+          <!-- Comment items will be added dynamically with JavaScript -->
+        </ul>
+        <form id="comment-form">
+          <label for="name">:שם</label>
+          <input type="text" id="name" name="name">
+          <label for="comment">:תגובה</label>
+          <textarea id="comment" name="comment" rows="5"></textarea>
+          <input type="submit" value="שלח">
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
